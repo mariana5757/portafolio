@@ -1,0 +1,11 @@
+
+.picture{
+    border-radius: 0 50px 0 50px;
+    height: 35rem;
+    margin: 1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.skills{
+    background-color: #FFF2D8;
+    
+}
