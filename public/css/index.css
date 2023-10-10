@@ -1,11 +1,38 @@
-
-.picture{
-    border-radius: 0 50px 0 50px;
-    height: 35rem;
-    margin: 1rem;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+.picture {
+  border-radius: 0 150px 150px 0px;
+  height: 30rem;
+  margin: 1rem;
+  box-shadow: 5px 5px 10px rgba(31, 65, 114, 0.5);
 }
-.skills{
-    background-color: #FFF2D8;
-    
+.skills {
+  color: white;
+  background-color: #1f4172;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  list-style: none;
+}
+body {
+  background-color: #fdf0f0;
+}
+.logo {
+  height: 5rem;
+  width: 5rem;
+}
+.btn-custom {
+  color: white;
+  background-color: #1f4172;
+  width: 30%;
+}
+.btn-custom:hover {
+  background-color: #f1b4bb;
+  color: #1f4172;
+}
+.information-div {
+  display: flex;
+  justify-content: center;
+  color: #1f4172;
+  margin: 2rem;
 }
