@@ -8,6 +8,8 @@ import {
   ReactLogo,
   Skills,
   Contact,
+  Phrase,
+  Biography
 } from "./Components";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -17,6 +19,8 @@ const django = ReactDOM.createRoot(document.getElementById("django"));
 const react_div = ReactDOM.createRoot(document.getElementById("react_div"));
 const skills = ReactDOM.createRoot(document.getElementById("skills"));
 const contact = ReactDOM.createRoot(document.getElementById("contact"));
+const phrase = ReactDOM.createRoot(document.getElementById('phrase'));
+const biography = ReactDOM.createRoot(document.getElementById('biography'));
 
 root.render(<Image />);
 
@@ -27,3 +31,5 @@ django.render(<Django />);
 react_div.render(<ReactLogo />);
 skills.render(<Skills />);
 contact.render(<Contact />);
+phrase.render(<Phrase />);
+biography.render(<Biography />);
